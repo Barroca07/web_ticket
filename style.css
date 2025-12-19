@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #e6e6e6;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 40px 0 30px 0;
+  color: #1a237e;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.painel-centro {
+  width: 95%;
+  max-width: 1270px;
+  margin: auto;
+  background: white;
+  padding: 35px;
+  border-radius: 14px;
+  box-shadow: 0px 5px 16px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.painel-centro h2 {
+  font-size: 28px;
+  color: #1a237e;
+  margin-bottom: 20px;
+}
+
+.ultima-senha {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.lista-senhas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-top: 20px;
+}
+
+.painel-item {
+  background: #f7f7f7;
+  border-radius: 10px;
+  padding: 18px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+}
+
+.painel-item strong {
+  color: #1a237e;
+  font-size: 22px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-bottom: 40px;
+}
+
+.box {
+  background: rgb(255, 255, 255);
+  padding: 25px;
+  width: 380px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  transition: 0.2s;
+}
+
+.box:hover {
+  transform: scale(1.01);
+}
+
+h2 {
+  color: #1a237e;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 12px;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.sp {
+  background: #c62828;
+}
+
+.sp:hover {
+  background: #8e0000;
+}
+
+.sg {
+  background: #1565c0;
+}
+
+.sg:hover {
+  background: #0d47a1;
+}
+
+.se {
+  background: #2e7d32;
+}
+
+.se:hover {
+  background: #1b5e20;
+}
+
+.call {
+  background: #ef6c00;
+}
+
+.call:hover {
+  background: #e65100;
+}
+
+footer {
+  padding: 20px;
+  background: #1a237e;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin-top: 40px;
+}
